@@ -1,14 +1,14 @@
 const IS_DEV = false
 
 export const SERVER_URL = IS_DEV
-  ? 'http://server.test.bandoristation.com'
-  : 'https://server.bandoristation.com'
+  ? 'http://127.0.0.1'
+  : 'https://127.0.0.1'
 export const API_URL = IS_DEV
-  ? 'http://api.test.bandoristation.com'
-  : 'https://api.bandoristation.com'
+  ? 'http://127.0.0.1'
+  : 'https://api.prsk.mid.red'
 export const WEBSOCKET_API_URL = IS_DEV
-  ? 'ws://api.test.bandoristation.com'
-  : 'wss://api.bandoristation.com'
+  ? 'ws://127.0.0.1'
+  : 'wss://ws.prsk.mid.red'
 export const ASSETS_URL = IS_DEV
   ? 'http://asset.test.bandoristation.com'
   : 'https://asset.bandoristation.com'
