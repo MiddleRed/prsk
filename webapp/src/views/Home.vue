@@ -78,7 +78,7 @@ export default {
         {
           action: 'setClient',
           data: {
-            client: 'BandoriStation',
+            client: 'PRSKStation',
             send_room_number: true
           }
         },

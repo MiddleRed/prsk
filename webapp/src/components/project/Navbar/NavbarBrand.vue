@@ -1,7 +1,7 @@
 <template>
   <div id="navbar-brand">
     <router-link to="/">
-      Bandori <font-awesome-icon icon="star" /> 车站
+      PRSK <font-awesome-icon icon="star" /> 车站
     </router-link>
   </div>
 </template>

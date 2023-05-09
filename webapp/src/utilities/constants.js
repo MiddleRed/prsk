@@ -8,7 +8,7 @@ export const API_URL = IS_DEV
   : 'https://api.prsk.mid.red'
 export const WEBSOCKET_API_URL = IS_DEV
   ? 'ws://127.0.0.1'
-  : 'wss://ws.prsk.mid.red'
+  : 'wss://api.prsk.mid.red'
 export const ASSETS_URL = IS_DEV
   ? 'http://asset.test.bandoristation.com'
   : 'https://asset.bandoristation.com'
