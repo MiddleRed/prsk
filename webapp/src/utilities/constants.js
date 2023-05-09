@@ -10,8 +10,8 @@ export const WEBSOCKET_API_URL = IS_DEV
   ? 'ws://127.0.0.1'
   : 'wss://api.prsk.mid.red'
 export const ASSETS_URL = IS_DEV
-  ? 'http://asset.test.bandoristation.com'
-  : 'https://asset.bandoristation.com'
+  ? 'http://127.0.0.1'
+  : 'http://127.0.0.1'
 
 export const ERROR_CODE_DEFINITION = {
   'Not allowed': '不允许的操作',
