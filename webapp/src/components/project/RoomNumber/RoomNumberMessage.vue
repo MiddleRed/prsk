@@ -24,7 +24,7 @@
         <span class="room-number-type text-follow">{{ message.type }}</span>
       </div>
       <div class="line-container">
-        <span class="raw-message">{{ message.raw_message }}</span>
+        <span class="raw-message" style="white-space: pre-warp;">{{ message.raw_message }}</span>
       </div>
       <div class="line-container operation-button-container">
         <span
