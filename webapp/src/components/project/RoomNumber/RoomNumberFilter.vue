@@ -1,40 +1,5 @@
 <template>
   <div>
-    <div class="title">
-      房间类型
-    </div>
-    <div class="options-container">
-      <Checkbox1
-        v-model="typeList"
-        class="checkbox-1 option"
-        text="7万常规房"
-        value="7"
-      />
-      <Checkbox1
-        v-model="typeList"
-        class="checkbox-1 option"
-        text="12万高手房"
-        value="12"
-      />
-      <Checkbox1
-        v-model="typeList"
-        class="checkbox-1 option"
-        text="18万大师房"
-        value="18"
-      />
-      <Checkbox1
-        v-model="typeList"
-        class="checkbox-1 option"
-        text="25万房"
-        value="25"
-      />
-      <Checkbox1
-        v-model="typeList"
-        class="checkbox-1 option"
-        text="其他房"
-        value="other"
-      />
-    </div>
     <div class="line-container-broad title">
       屏蔽关键词
     </div>

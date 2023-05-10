@@ -11,7 +11,10 @@
     </li>
     <p>
       <b>加入prsk-station QQ频道：</b><br>
-      点击链接加入QQ频道【prsk-station】：https://pd.qq.com/s/f3dw8xlvi<br>
+      点击链接加入QQ频道【prsk-station】：<a
+        href="https://pd.qq.com/s/f3dw8xlvi"
+        target="_blank"
+      >https://pd.qq.com/s/f3dw8xlvi</a><br>
       频道号：9p4iqby82h
     </p>
   </SectionContainer>
