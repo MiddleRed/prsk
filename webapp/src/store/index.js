@@ -136,32 +136,14 @@ export default new Vuex.Store({
       if (state.account.loginStatus) {
         return [
           {
-            title: '个人中心',
-            type: 'link',
-            path: '/account',
-            style: 'top'
-          },
-          {
             title: '关于本站',
             type: 'link',
             path: '/about',
             style: 'middle'
-          },
-          {
-            title: '退出登陆',
-            type: 'button',
-            function: 'logoutAccount',
-            style: 'bottom'
           }
         ]
       } else {
         return [
-          {
-            title: '登陆',
-            type: 'link',
-            path: '/login',
-            style: 'top'
-          },
           {
             title: '关于本站',
             type: 'link',
