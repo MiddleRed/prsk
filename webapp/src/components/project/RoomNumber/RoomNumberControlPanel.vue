@@ -3,17 +3,6 @@
     class="control-panel"
     :class="{ 'control-panel-pc': $store.state.misc.userDeviceType === 'PC' }"
   >
-    <div>
-      <Button1
-        class="button-2"
-        color="3"
-        shape="circle"
-        :config="{ type: 'button' }"
-        @click.native="switchDialog('chatRoom', true, true)"
-      >
-        <font-awesome-icon icon="comment" />
-      </Button1>
-    </div>
     <div class="line-container-lite">
       <Button1
         class="button-2"
@@ -23,17 +12,6 @@
         @click.native="switchDialog('setRoomNumberFilter', true)"
       >
         <font-awesome-icon icon="filter" />
-      </Button1>
-    </div>
-    <div class="line-container-lite">
-      <Button1
-        class="button-2"
-        color="1"
-        shape="circle"
-        :config="{ type: 'button' }"
-        @click.native="switchDialog('sendRoomNumber', true, true)"
-      >
-        <font-awesome-icon icon="plus" />
       </Button1>
     </div>
   </div>

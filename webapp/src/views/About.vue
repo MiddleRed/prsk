@@ -30,22 +30,6 @@ export default {
     return {
       onlineNumber: 0
     }
-  },
-  created () {
-    this.$store.commit('navbar/setMenuDisplay', true)
-    getOnlineNumber().then(response => {
-      this.$globalFunctions.handleAPIResponse(
-        response,
-        responseData => {
-          this.onlineNumber = responseData.online_number
-        }
-      )
-    }).catch(
-      error => {
-        this.$globalFunctions.notify({ content: '请求失败' })
-        console.log(error)
-      }
-    )
   }
 }
 </script>

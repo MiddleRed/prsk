@@ -26,16 +26,6 @@
       <div class="line-container">
         <span class="raw-message" style="white-space: pre-wrap;">{{ message.raw_message }}</span>
       </div>
-      <div class="line-container operation-button-container">
-        <span
-          class="operation-button"
-          @click="blockUser"
-        >屏蔽</span>
-        <span
-          class="operation-button operation-button-colored"
-          @click="informUser"
-        >举报</span>
-      </div>
     </div>
   </div>
 </template>
