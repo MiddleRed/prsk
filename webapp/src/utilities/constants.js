@@ -5,10 +5,10 @@ export const SERVER_URL = IS_DEV
   : 'https://127.0.0.1'
 export const API_URL = IS_DEV
   ? 'http://127.0.0.1'
-  : 'https://api-prsk.mid.red'
+  : 'http://128.22.149.41:1112'
 export const WEBSOCKET_API_URL = IS_DEV
   ? 'ws://127.0.0.1'
-  : 'wss://api-prsk.mid.red'
+  : 'ws://128.22.149.41:1112'
 export const ASSETS_URL = IS_DEV
   ? 'http://127.0.0.1'
   : 'http://127.0.0.1'
