@@ -206,11 +206,11 @@ export default {
 }
 
 .message-content-self-message {
-  background-color: #a5d7ef;
+  background-color: #8DEEE2;
   &:after {
     left: 100%;
     border-right-color: transparent;
-    border-left-color: #a5d7ef;
+    border-left-color: #8DEEE2;
   }
 }
 </style>
