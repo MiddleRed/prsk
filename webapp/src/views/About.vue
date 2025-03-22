@@ -10,12 +10,11 @@
       >GitHub</a>
     </li>
     <p>
-      <b>加入prsk-station QQ频道：</b><br>
-      点击链接加入QQ频道【prsk-station】：<a
-        href="https://pd.qq.com/s/f3dw8xlvi"
+      <b>加入PJSK 日服QQ群：</b><br>
+      <a
+        href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=2T8Mx59-jp2aREXyXWEeA_pNJae7CjiL&authKey=3EXJ7kWjbYH3g8GWoeZXQkGHYGMweLVmExn%2FMETYXOpfc%2Fe2piQO8m1Eh0VEnVRK&noverify=0&group_code=786208134"
         target="_blank"
-      >https://pd.qq.com/s/f3dw8xlvi</a><br>
-      频道号：9p4iqby82h
+      >群号：786208134</a><br>
     </p>
   </SectionContainer>
 </template>
