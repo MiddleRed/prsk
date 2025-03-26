@@ -5,10 +5,10 @@ export const SERVER_URL = IS_DEV
   : 'https://127.0.0.1'
 export const API_URL = IS_DEV
   ? 'http://127.0.0.1'
-  : 'https://api-pjsekai.mid.red/station'
+  : 'https://api-pjsekai-zhcn.mid.red/station'
 export const WEBSOCKET_API_URL = IS_DEV
   ? 'ws://127.0.0.1'
-  : 'wss://api-pjsekai.mid.red/station'
+  : 'wss://api-pjsekai-zhcn.mid.red/station'
 export const ASSETS_URL = IS_DEV
   ? 'http://127.0.0.1'
   : 'http://127.0.0.1'
