@@ -1,7 +1,7 @@
 <template>
   <div id="navbar-brand">
     <router-link to="/">
-      PRSK <font-awesome-icon icon="star" /> 车站
+      PJSK <font-awesome-icon icon="star" /> 国服车站
     </router-link>
   </div>
 </template>

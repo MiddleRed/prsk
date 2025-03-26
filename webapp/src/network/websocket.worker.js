@@ -13,7 +13,7 @@ ws.onopen = () => {
     ws.send(JSON.stringify({
       action: 'heartbeat',
       data: {
-        client: 'PRSKStation'
+        client: 'PJSKStation'
       }
     }))
   }, 30000)

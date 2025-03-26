@@ -78,7 +78,7 @@ export default {
         {
           action: 'setClient',
           data: {
-            client: 'PRSKStation',
+            client: 'PJSKStation',
             send_room_number: true
           }
         },
