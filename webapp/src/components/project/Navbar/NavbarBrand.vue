@@ -1,7 +1,7 @@
 <template>
   <div id="navbar-brand">
     <router-link to="/">
-      PJSK <font-awesome-icon icon="star" /> 国服车站
+      世界计划 国服车站
     </router-link>
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
 #navbar-brand {
   font-size: 2.4rem;
   color: white;
-  width: 18.2rem;
+  width: 30rem;
   height: 3.2rem;
   line-height: 3.2rem;
   margin: {
