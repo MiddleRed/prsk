@@ -1,11 +1,11 @@
 module.exports = {
   pwa: {
-    name: 'PJSK车站',
+    name: 'プロセカ Station',
     themeColor: '#A5EFE6'
   },
   chainWebpack: config => {
     config.plugin('html').tap(args => {
-      args[0].title = 'PJSK车站'
+      args[0].title = 'プロセカ Station'
       return args
     })
     config.module
