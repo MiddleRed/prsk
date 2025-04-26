@@ -1,7 +1,7 @@
 <template>
   <div id="navbar-brand">
     <router-link to="/">
-      PRSK <font-awesome-icon icon="star" /> 车站
+      プロセカ Station
     </router-link>
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
 #navbar-brand {
   font-size: 2.4rem;
   color: white;
-  width: 18.2rem;
+  width: 30.2rem;
   height: 3.2rem;
   line-height: 3.2rem;
   margin: {
